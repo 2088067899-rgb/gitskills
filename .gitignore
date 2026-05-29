@@ -1,0 +1,40 @@
+# 开发工具和IDE的配置文件（必须忽略）
+.idea/
+*.iml
+.IntelliJIdea*/
+out/
+__pycache__/
+*.pyc
+*.log
+
+# 前端依赖目录（如果项目有）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.cache
+
+# 编译生成文件和目录
+target/
+dist/
+build/
+*.exe
+*.jar
+*.war
+*.class
+
+# 配置文件（可根据项目情况保留或忽略）
+*.properties
+*.yml
+*.yaml
+!application.yml
+!application.properties
+
+# 日志文件
+logs/
+*.log
